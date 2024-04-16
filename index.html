@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>APLICATIVO CARE SHARE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+
+
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo">🩺</a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+            <li><a href="#"> CARE SHARE</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Planos e Serviços</a></li>
+            </ul>
+        
+            <a href="" class"button">Contatos</a>
+        
+
+        </nav>
+
+        
+    </header>
+
+
+</head>
+
+    <body>
+        
+
+    <h1 style="color: rgb(0, 68, 205);"><center><i>"CARE SHARE"</i>APP Home Care</center></h1>
+    
+
+
+   <p style="color: #49ac42;"> <aling> <br>O Home Care é uma ampla variedade de serviços de saúde, que são oferecidos a você e sua família a partir de sua casa. Em termos simples, 
+    você vai ter a comodidade de ser atendido por um profissional especializado, diretamente em sua residência, isso mesmo, no conforto de seu lar.</p>
+
+    <p style="color: #3629ab;">Nosso app é gratuito. Criado para facilitar o dia a dia dos usuários que buscam atendimento domiciliar imediato ou mesmo para quem procura por 
+    profissionais para atendimento contínuo de longo prazo.</p>
+    
+    <p style="color: #27857f;"><font</font>O App CARE SHARE é o aplicativo que vai permitir que você localize e agende os serviços dos melhores profissionais de saúde, localizados pertinho de você, 
+        aí mesmo em sua cidade. Agora você não precisa mais ficar, guardando panfletos, chaveiros, memorizar nomes de clínicas, profissionais de saúde, telefones, 
+        sites, planos… Chega!!!  Com a </I>CARE SHARE</I>, você vai ter tudo isso ao alcance de suas mãos, com apenas um clique em seu Smartphone. Isso mesmo, o aplicativo já está 
+        disponível para  baixar gratuitamente, tanto nas versões Android como IOS.
+
+    </aling></p> 
+
+
+   <main class="hero"></main>
+
+    <form action="#"><center>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"required />
+        <br> <br>
+
+    <label for="nascimento">Nascimento:</label>
+    <input type="date" id="nascimento" name="nascimento" required/>
+    <br> <br>
+
+    <label for="tipodeconsulta">Tipo de Consulta:</label>
+    <select name="tipodeconsulta" required>
+        <option value="" selected>Selecione...</option>
+        <option value="domiciliar">Domiciliar</option>
+        <option value="hospitalar">Hospitalar</option>
+        <option value="consultorio">Consultório</option>
+    </select>
+    <br> <br>
+    
+
+
+    <label for="sexo">Sexo:</label>
+    <input type="radio" id="masculino" name="sexo" value="Masculino" checked>
+    <label for="masculino">Masculino:</label>
+    <input type="radio" id="feminino" name="sexo" value="Feminino" checked>
+    <label for="feminino">Feminino:</label>
+    <br> <br>
+    
+
+
+    <label for="valordaconsulta">Valor da Consulta:</label>
+    <input type="number" id="Valores das Consultas" name="Valores das Consultas" required 
+            min="0" max="9999" step="0.01" />
+            <br> <br>
+            
+            <button type="submit">💾 Salvar</button>
+            <br></br>
+            
+</center></form>
+
+</body>
+
+</html>
